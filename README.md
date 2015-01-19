@@ -1,10 +1,11 @@
 RRHO
 ========
 
-Title: Inference on agreement between ordered lists
+Title: RRHO: Inference on agreement between ordered lists
 
+The original code (RRHO_1.6.0) is downloaded from CRAN.
 
-Revised to accept the ranked lists directly
+Revised to receive the ranked lists directly
 
 installation
 
