@@ -122,8 +122,8 @@ RRHO <- function(list1, list2,
   ## Order lists along list2
   ####################################################
   #pre-ranked
-  # list1  <- list1[order(list1[,2],decreasing=TRUE),]
-  # list2  <- list2[order(list2[,2],decreasing=TRUE),]
+  list1  <- list1[order(list1[,2]),]
+  list2  <- list2[order(list2[,2]),]
   ####################################################
   nlist1 <- length(list1[,1])
   nlist2 <- length(list2[,1])
